@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "run_dev":"../../compnonts/run_dev/run_dev",
+    "main":"../../compnonts/main/main",
+    "dataGrid":"../../compnonts/dataGrid/dataGrid",
+    "block_area":"../../compnonts/block_area/block_area",
+    "OverView":"../../compnonts/OverView/OverView"
+  }
+}

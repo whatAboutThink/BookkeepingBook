@@ -1,0 +1,15 @@
+<!--compnonts/OverView/OverView.wxml-->
+<view class="overViewFlex">
+    <view>
+        {{inMount}}月总收入
+        <view class="overViewFont">{{MonthOverview.total}}</view>
+    </view>
+    <view class="ouverViewFont">
+        {{inMount}}月总余额
+        <view class="overViewFont">{{MonthOverview.balance}}</view>
+    </view>
+    <view class="ouverViewFont">
+        {{inMount}}月总支出
+        <view class="overViewFont">{{MonthOverview.cost}}</view>
+    </view>
+</view>

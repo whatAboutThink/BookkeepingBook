@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/main/main",
+    "pages/logs/logs",
+    "pages/godLike/godLike",
+    "pages/userSelf/userSelf",
+    "pages/addNew/addNew",
+    "pages/record/record",
+    "pages/analysis/analysis"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#42a5f5",
+    "enablePullDownRefresh": true,
+    "navigationBarBackgroundColor": "#42a5f5",
+    "navigationBarTitleText": "秋后算账",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "pages/image/home.png",
+        "selectedIconPath": "pages/image/select_home.png"
+      },
+      {
+        "pagePath": "pages/godLike/godLike",
+        "text": "功德箱",
+        "iconPath": "pages/image/godLike.png",
+        "selectedIconPath": "pages/image/select_godLike.png"
+      },
+      {
+        "pagePath": "pages/userSelf/userSelf",
+        "text": "个人",
+        "iconPath": "pages/image/babel.png",
+        "selectedIconPath": "pages/image/select_babel.png"
+      }
+    ],
+    "selectedColor": "#61705b",
+    "borderStyle": "white",
+    "color": "#b5bdb5",
+    "backgroundColor": "#fefefe"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

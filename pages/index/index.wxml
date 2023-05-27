@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="leader_view">
+    <image src="../image/login.png" class="index_image" wx:if="{{!loadState}}"></image>
+  <run_dev style="height: 100%;" wx:if="{{!loadState}}" bind:toSendValue="setSonVal"></run_dev>
+  <view wx:if="{{loadState}}" class="homeView">
+    <view class="homeTitle">秋后算账</view>
+    <OverView>
+        
+    </OverView>
+    <block_area class="homeGrid">
+        <view class="tableTitle">账目总览</view>
+      <dataGrid swidth="700" max-height="250" Serial="true"  gridHead="{{fakerJson}}" gridData="{{fakerJsonChild}}"></dataGrid>
+    </block_area>
+    <view class="areaStyle" style="width: 100%;">
+        <view class="newButton" bind:tap="new">新建帐项</view>
+        <view class="writeButton" bind:tap="record">登记账单</view>
+        <view class="trend" bind:tap="analysis">账单趋势</view>
+    </view>
+    </view>
+</view>

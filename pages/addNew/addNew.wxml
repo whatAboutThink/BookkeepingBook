@@ -1,0 +1,38 @@
+<!--pages/addNew/addNew.wxml-->
+<wux-toast id="wux-toast" />
+<view class="addNew">
+    <view class="backOut">
+        <image bind:tap="backOut" src="../image/back.png" class="backLogo" mode="aspectFill"/>
+     </view>
+</view>
+<block_area>
+    <scroll-view style="display: block; height: 250px;" scroll-y>
+        <VIEW class="accountTitle">已选帐项</VIEW>
+        <view class="fieldStyle" data-index="{{index}}" data-row="{{item}}" bind:tap="selectBackField" wx:for="{{fields}}" wx:key="item.field" wx:for-item='item' wx:for-index="index">
+        <view class="buttonStyle">{{item.name}}</view>
+        </view>
+    </scroll-view>
+</block_area>
+<view>
+    <view class="fieldStyle" bind:tap="pushPreselection">
+        <view class="buttonStyle">移入已选</view>
+    </view>
+    <view class="fieldStyle" bind:tap="pushUnselected">
+        <view class="buttonStyle">移入预选</view>
+    </view>
+    <view class="fieldStyle">
+        <view class="buttonStyle">新建预选</view>
+    </view>
+    <view class="fieldStyle">
+        <view class="buttonStyle">保存</view>
+    </view>
+</view>
+
+<block_area>
+    <scroll-view style="display: block; height: 260px; max-height:500px;" scroll-y >
+        <VIEW class="accountTitle">预选帐项</VIEW>
+        <view class="fieldStyle" data-index="{{index}}" data-row="{{item}}" bind:tap="selectField" wx:for="{{UnselectedFields}}" wx:key="item.field" wx:for-item='item' wx:for-index="index">
+        <view class="buttonStyle">{{item.name}}</view>
+        </view>
+    </scroll-view>
+</block_area>

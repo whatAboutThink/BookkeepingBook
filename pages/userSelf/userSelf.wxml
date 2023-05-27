@@ -1,0 +1,12 @@
+<!--pages/userSelf/userSelf.wxml-->
+<view style="height:100%;">
+  <view class="user_info">
+    <view class="normal_info">
+      <sculpture class=""></sculpture>
+    </view>
+  </view>
+ <block_area>
+    <dataGrid swidth="700" max-height="120" Serial="true"  gridHead="{{fakerJson}}" gridData="{{fakerJsonChild}}"></dataGrid>
+ </block_area>
+ <block_area></block_area>
+</view>

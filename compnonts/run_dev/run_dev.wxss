@@ -1,0 +1,43 @@
+/* compnonts/run_dev/run_dev.wxss */
+.userinfo {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #aaa;
+  width: 100%;
+  height: 75%;
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  display: block;
+}
+
+.usermotto {
+  
+}
+.usermotto{
+  color: whitesmoke;
+  font-size: 12px;
+  text-align: center;
+}
+.container{
+  background-repeat:no-repeat;
+   background-size:100% 100%;
+   -moz-background-size:100% 100%;
+   width: 100%;
+   height: 100%;
+   margin: 0;
+  padding: 0;
+}
+.index_image{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}

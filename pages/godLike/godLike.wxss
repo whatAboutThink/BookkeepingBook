@@ -1,0 +1,6 @@
+/* pages/godLike/godLike.wxss */
+
+page {
+  background: #fff;
+}
+

@@ -1,0 +1,50 @@
+/* pages/addNew/addNew.wxss */
+page{
+    height: 100%;
+    width: 100%;
+    background: #eeeeee;
+   }
+.addNew{
+    background: #42a5f5;
+}
+.backOut{
+    width: 100%;
+}
+.backLogo{
+    margin: 30px 10px 0px 10px;
+    width: 30px;
+    height: 30px;
+}
+.backLogo:hover{
+    margin: 50px 10px 0px 10px;
+    width: 30px;
+    height: 30px;
+    color:white;
+}
+.fieldStyle{
+    border-radius: 50px;
+    border: 2px solid #42a5f5;
+    text-align: center;
+    display: inline-block;
+    margin: 5px 5px;
+}
+.fieldStyle:hover{
+    border-radius: 50px;
+    border: 2px solid #42a5f5;
+    text-align: center;
+    display: inline-block;
+    margin: 5px 5px;
+    background-color:#42a5f5 ;
+    color: white;
+}
+.buttonStyle{
+    margin: 5px 10px;
+    color:#42a5f5;
+}
+.buttonStyle:hover{
+    margin: 5px 10px;
+    color:white;
+}
+.accountTitle{
+    font-weight: bold;
+}

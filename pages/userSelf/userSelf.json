@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "block_area":"../../compnonts/block_area/block_area",
+    "sculpture":"../../compnonts/head/sculpture",
+    "dataGrid":"../../compnonts/dataGrid/dataGrid"
+  }
+}

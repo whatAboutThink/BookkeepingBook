@@ -1,0 +1,17 @@
+/* pages/main/main.wxss */
+
+.login_info{
+  line-height: 100%;
+  margin: 0 auto;
+}
+.login_input{
+  text-align: center;
+  width: 184px;
+  height: 80rpx;
+  margin: 0 auto;
+  border-radius:5px;
+  font-size: 30rpx;
+  border: 1px solid gray;
+  color: gray;
+  background-color: whitesmoke;
+}

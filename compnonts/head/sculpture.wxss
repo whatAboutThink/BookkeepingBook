@@ -1,0 +1,10 @@
+/* compnonts/head/sculpture.wxss */
+.image_size{
+  border-radius: 50%;
+  height:100% ;
+  display: block;
+}
+.divCricl{
+  margin:10px auto;
+  height: 50px;
+}

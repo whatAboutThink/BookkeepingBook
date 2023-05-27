@@ -1,0 +1,30 @@
+<!--compnonts/dataGrid/dataGrid.wxml-->
+<view style="overflow-x: scroll;">
+  <view class="tableFather" style="width:{{headWidth}}px;"> 
+       <!-- 头部 -->
+       <view class="trTableHead">
+              <view class="thTitle th fontPoint" wx:key="indexTh" wx:for-index="indexTh" wx:for="{{fakerData}}" style="width:{{ fakerData[indexTh].width }}rpx" wx:for-item="itemTh" >
+                <view  class="tableDiv textcls">{{itemTh.title}}</view>
+              </view>
+            </view>
+      <scroll-view scroll-y style="max-height:{{maxHeight}}px;">
+            <!-- tableBody -->
+            <view>
+              <view class="{{indexTr%2 == 0? 'tr_1':'tr_2'}}   {{itemTr.style?'active':''}} "   wx:key="indexTr" wx:for-index="indexTr" wx:for="{{fakerDataChild}}" bind:tap="clickTh" data-index="{{indexTr}}" data-row="{{itemTr}}" wx:for-item="itemTr">
+              
+                  <template solt-scpoe="scope"></template>
+                  <view bind:tap="clickGrid"  class="th" wx:key="indexTd"  wx:for-index="indexTd" wx:for="{{fakerData}}"  wx:for-item="itemTd" style="width:{{ fakerData[indexTd].width }}rpx" >
+                    <view wx:if="{{itemTd.prop !='number'}}" style="width:{{ fakerData[indexTd].width / 2 }}rpx" class="fontPoint textcls">{{itemTr[itemTd.prop]}}</view>
+                    <view style="width:{{ fakerData[indexTd].width / 2 }}rpx"  wx:if="{{itemTd.prop =='number'}}" class="fontPoint textcls">{{indexTr + 1}}</view>
+                  </view>
+              
+              </view>
+            </view>
+      </scroll-view>
+      <view class="trTableFoot">
+        <view class="thBottom th" wx:key="index" wx:for-index="index" wx:for="{{statistics}}"  wx:for-item="item" style="width:{{item.width}}rpx;" >
+                <view style="width:{{item.width / 2}}rpx;" class="fontPoint tableDiv textcls">{{item.val}}</view>
+              </view>
+            </view>
+    </view>
+  </view>

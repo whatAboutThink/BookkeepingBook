@@ -1,0 +1,6 @@
+{
+     "usingComponents": {
+         "block_area":"../../compnonts/block_area/block_area",
+        "wux-toast": "/miniprogram_npm/wux-weapp/toast/index"
+      }
+}

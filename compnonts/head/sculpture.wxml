@@ -1,0 +1,4 @@
+<!--compnonts/head/sculpture.wxml-->
+<view class="divCricl">
+  <image src="../../pages/image/green_boy.png" mode="heightFix"  class="image_size"/>
+</view>

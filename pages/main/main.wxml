@@ -1,0 +1,10 @@
+<!--pages/main/main.wxml-->
+<view class="login_info" >
+  <form>
+    <input class="login_input" type="text" placeholder="输入用户名" data-text="rose"></input>
+    <input class="login_input" type="password" placeholder="输入密码"></input>
+    <button>提交</button>
+  </form>
+  <navigator target="miniProgram" app-id="wxe64e4eda7cabc68b" open-type="navigate">点击
+  </navigator>
+</view>

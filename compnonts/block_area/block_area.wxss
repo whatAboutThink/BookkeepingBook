@@ -1,0 +1,7 @@
+/* compnonts/block_area/block_area.wxss */
+.block_view{
+  margin: 5rpx;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 15rpx;
+}

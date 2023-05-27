@@ -1,0 +1,15 @@
+/* pages/record/record.wxss */
+.backOut{
+    width: 100%;
+}
+.backLogo{
+    margin: 30px 10px 0px 10px;
+    width: 30px;
+    height: 30px;
+}
+.backLogo:hover{
+    margin: 50px 10px 0px 10px;
+    width: 30px;
+    height: 30px;
+    color:white;
+}

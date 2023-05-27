@@ -1,0 +1,7 @@
+<!--pages/analysis/analysis.wxml-->
+<view>
+    <view class="backOut">
+        <image bind:tap="backOut" src="../image/back.png" class="backLogo" mode="aspectFill"/>
+     </view>
+</view>
+

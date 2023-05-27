@@ -1,0 +1,4 @@
+<!--compnonts/block_area/block_area.wxml-->
+<view class="block_view">
+  <slot></slot>
+</view>

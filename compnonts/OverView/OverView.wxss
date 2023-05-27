@@ -1,0 +1,18 @@
+/* compnonts/OverView/OverView.wxss */
+.overViewFlex{
+    font-size: smaller;
+    display: flex;
+    color: white;
+    font-weight: 600;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #42a5f5;
+    border-bottom: 1px #eeeeee dashed;
+  }
+  .overViewFont{
+    text-align: center;
+    font-size: smaller;
+    font-weight: 500;
+  }

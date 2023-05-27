@@ -1,0 +1,111 @@
+/* compnonts/dataGrid/dataGrid.wxss */
+
+.trTableHead {
+  display: flex;
+  justify-content: left0;
+  align-items: center;
+  font-size: 22rpx;
+  color: #666666;
+  background:#28a7eb;
+ }
+ .tr_1 {
+  display: flex;
+  justify-content: left0;
+  align-items: center;
+  font-size: 22rpx;
+  color: #666666;
+  background-color: #E9E9E9;
+ }
+ .tr_2 {
+  display: flex;
+  justify-content: left0;
+  align-items: center;
+  font-size: 22rpx;
+  color: #666666;
+  background-color:white ;
+ }
+ .td {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: #666666;
+ }
+ .th {
+  justify-content: center;
+  color: #333333;
+  display: flex;
+  height: 72rpx;
+  align-items: center;
+  font-size: 22rpx;
+  border: 1rpx solid whitesmoke;
+ }
+ .th_1 {
+  justify-content: center;
+  background: #E9E9E9;
+  color: #333333;
+  display: flex;
+  height: 72rpx;
+  align-items: center;
+  font-size: 22rpx;
+  border: 1rpx solid white;
+ }
+ .th_2 {
+  justify-content: center;
+  background: white;
+  color: #333333;
+  display: flex;
+  height: 72rpx;
+  align-items: center;
+  font-size: 22rpx;
+  border: 1rpx solid white;
+ }
+ .tab{
+
+ }
+ .bg-g{
+   background: whitesmoke;
+ }
+ .tableFather{
+   background-color: white;
+   text-align: left;
+ }
+ .active{
+  background-color: #86bb49;
+ }
+ .thTitle{
+    justify-content: center;
+    color: whitesmoke;
+    display: flex;
+    height: 72rpx;
+    align-items: center;
+    font-size: 22rpx;
+    border: 1rpx solid whitesmoke;
+ }
+ .thBottom{
+    justify-content: center;
+    color: whitesmoke;
+    display: flex;
+    height: 72rpx;
+    align-items: center;
+    font-size: 22rpx;
+    border: 1rpx solid whitesmoke;
+ }
+ .trTableFoot{
+    display: flex;
+    justify-content: left0;
+    align-items: center;
+    font-size: 22rpx;
+    color: #666666;
+    background:#d3d3d3 ;
+ }
+ .textcls{
+    display: block;
+    font:larger;
+    font-size: larger;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+.fontPoint{
+    text-align: center;
+}
