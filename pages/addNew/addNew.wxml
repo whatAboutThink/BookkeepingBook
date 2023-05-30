@@ -1,5 +1,8 @@
 <!--pages/addNew/addNew.wxml-->
 <wux-toast id="wux-toast" />
+<wux-dialog id="wux-dialog" />
+<wux-dialog id="wux-dialog--alert" />
+
 <view class="addNew">
     <view class="backOut">
         <image bind:tap="backOut" src="../image/back.png" class="backLogo" mode="aspectFill"/>
@@ -23,7 +26,7 @@
     <view class="fieldStyle">
         <view class="buttonStyle">新建预选</view>
     </view>
-    <view class="fieldStyle">
+    <view class="fieldStyle" bind:tap="save">
         <view class="buttonStyle">保存</view>
     </view>
 </view>

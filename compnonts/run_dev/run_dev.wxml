@@ -21,6 +21,5 @@
   <view class="usermotto">
     <text class="user-motto"  >{{motto}}</text>
   </view>
-  <navigator id="user-motto" style="text-align: center;" open-type="redirect" hover-class="navigator-hover" url='../main/main?title=logs' bind:tap="success_login">点击</navigator>
 </view>
 

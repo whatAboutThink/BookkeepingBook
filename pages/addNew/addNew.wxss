@@ -1,4 +1,6 @@
 /* pages/addNew/addNew.wxss */
+@import "/miniprogram_npm/wux-weapp/dialog/index.wxss";
+
 page{
     height: 100%;
     width: 100%;
